@@ -1,0 +1,320 @@
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container
+{
+  margin: 0 auto;
+  width: 960px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+
+.clearfix::before,
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+body {
+  background: #293f50;
+  color: #888;
+  font: 300 16px/22px "Noto Sans TC","Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4 {
+
+  font-size: 100%;
+  font: inherit;
+  margin: 0;
+  padding: 0;
+  color: #648880;
+}
+
+
+
+.logo {
+  border-top: 4px solid #648880;
+  float: left;
+  font-size: 48px;
+  font-weight: 100;
+  color: rgb(255, 255, 255);
+  letter-spacing: .5px;
+  line-height: 44px;
+  padding: 40px 0 22px 0;
+  text-transform: uppercase;
+}
+.tagline {
+  font-size: 21px;
+  margin: 66px 0 22px 0;
+  text-align: right;
+  color: white;
+}
+.nav {
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: .5px;
+  text-transform: uppercase;
+}
+.nav li {
+  float: right;
+  padding-left: 10px;
+  list-style-type: none;
+}
+.nav a {
+  color: white;
+}
+.nav a:hover {
+  color: #648880;
+}
+
+/*
+  ========================================
+  Links
+  ========================================
+*/
+
+a{
+  color: #648880;
+  text-decoration: none;
+}
+a:hover {
+  color: #a9b2b9;
+}
+p a {
+  border-bottom: 1px solid #dfe2e5;
+}
+
+
+.intro {
+  color: #fff;
+  line-height: 44px;
+  padding: 22px 80px 66px 80px;
+  text-align: center;
+}
+
+.intro h2 {
+  font-size: 36px;
+}
+
+.intro p {
+  font-size: 24px;
+  font-weight: 100;
+}
+
+
+
+
+
+.btn {
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 400;
+  letter-spacing: .5px;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.btn-alt {
+  border: 1px solid #fff;
+  padding: 10px 30px;
+}
+
+
+.btn-alt:hover {
+
+  background-color:white;
+  font-display: #648880;
+}
+
+
+
+
+.row {
+  background: #fff;
+}
+
+
+
+.row h5 {
+  text-align: center;
+  font-size: 18px;
+  text-transform: uppercase;
+
+
+}
+
+
+.row h3 {
+
+  text-align: center;
+  font-size: 21px;
+  text-decoration: underline;
+
+}
+
+.col-1-3 {
+  width: 33.33%;
+  display: inline-block;
+  vertical-align: top;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.col-1-3 img {
+  display: block;
+  margin-bottom: 22px;
+  max-width: 100%;
+ border-radius: 30px;
+}
+
+
+
+
+h2.container {
+
+  font-size: 36px;
+  line-height: 48px;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.location-map {
+
+
+    height: 400px;
+    width: 900px;
+
+
+}
+
+.contact {
+  text-align: center;
+  padding: 22px;
+
+}
+.contact a:hover {
+  border-bottom: 1px dashed;
+}
+
+
+.primary-footer{
+  color: white;
+  font-weight: 100;
+  text-align: center;
+  padding: 24px 0;
+}
+
+/*
+  ========================================
+  CVIN
+  ========================================
+*/
+.inside{
+  background: #fff;
+  margin-left:50px;
+  margin-right:50px;
+  padding: 20px;
+  color: black;
+  font-size: large;
+}
+.inside h1 {
+
+
+  display: inline;
+  color: black;
+  font-size: large;
+}
+.inside h2{
+  font-weight: 400;
+  display: inline;
+  color: black;
+  font-size: large;
+}
+.inside h3{
+  font-weight: 400;
+  color: black;
+  font-size: 25px;
+  text-shadow: -1px -1px 0 #1a79e6,
+              1px -1px 0 #1a79e6,
+              -1px 1px 0 #efe4d1,
+              1px 1px 0 #efe4d1;
+}
+.inside h4{
+  font-weight: 400;
+  color: black;
+  font-size: 25px;
+  text-shadow: -1px -1px 0 #19e9ab,
+               1px -1px 0 #19e9ab,
+               -1px 1px 0 #efe4d1,
+               1px 1px 0 #efe4d1;
+
+
+  
+}
+
+
+.button {
+  background-color:  #648880; /* Green */
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+
+  font-weight: 500;
+}
+.button21 {
+  background-color:  #648880; /* Green */
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 45%;
+  font-weight: 500;
+}
+.buttonnext {
+  background-color:  #648880; /* Green */
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  margin-right: 10%;
+  font-weight: 500;
+}
+.buttonlast {
+  background-color:  #648880; /* Green */
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left:35%;
+  font-weight: 500;
+}
+.date h1{
+  text-align: center;
+  font-size: 100px;
+}
+.intro h4 {
+  font-size: 80px;
+  font-weight: bolder;
+}
